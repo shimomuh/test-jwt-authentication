@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.push('lib')
+
+require "jwt_mock"
+
+require "irb"
+IRB.start
