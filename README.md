@@ -7,6 +7,7 @@ execute `bin/console` in the following commands
 ```ruby
 > server = JwtMock::ApplicationServer.new
 > user = JwtMock::ApplicationUser.new
+=> #<JwtMock::ApplicationUser:0x007fac86845a50 @payload={:id=>1, :name=>"shimomuh", :password=>"uniJ6433YBN9q"}>
 
 > user.build_jwt_client
 > user.tell_public_key_to(server)
